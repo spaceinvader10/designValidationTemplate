@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dumb Hot Honey</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Discover the best honey - Dumb Hot Honey, a premium and top-notch honey that's winning hearts. Sign up now!">
+</head>
+
+<body>
+    <div id="flex-container">
+        <div id="left-side">
+            <img src="images/honeyPot.jpg" id="honeyPot" alt="Dumb Honey Pot Image">
+
+            <blockquote id="speech">
+                "Ladies and gentlemen, let me tell you about Dumb Honey – the best, the most tremendous honey you've ever tasted!
+                Dumb Honey is not just honey; it's premium, it's top-notch. 
+            </blockquote>
+
+        </div>
+        <div id="right-side">
+            <header>
+                <span>Email Sign Up</span>
+                
+            </header>
+
+
+            <img src="images/honeyCupid.jpg" id="honeyCupid" alt="Honey Cupid Image">
+
+
+            <form action="#" method="post">
+                <div>
+                    <label for="user">*Choose Username: </label>
+                    <input type="text" id="user" name="user" placeholder="Username" minlength="5" maxlength="20" pattern="[a-zA-Z0-9].{5,}" title="min length 5 characters" required>
+                </div>
+
+                <div>
+                    <label for="email">*Enter Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                </div>
+
+                <div>
+                    <label for="password"> *Choose Password:</label>
+                    <input type="password" id="password" name="password" placeholder="*****" minlength="8" maxlength="22"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W)" title="Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one digit, and one special character." required>
+
+                    <label for="confirmPassword"> *Confirm Password:</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="*****" minlength="8" maxlength="22" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W)" title="Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one digit, and one special character." required>
+
+                </div>
+
+                <button type="submit">Sign up!</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
